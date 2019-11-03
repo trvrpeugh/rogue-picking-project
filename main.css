@@ -1,0 +1,174 @@
+/***** BASE STYLES*****/
+
+body{
+font-family: 'source sans pro', sans-sans-serif;
+color: #2b2b2b;
+}
+#about, #work, #contact {
+  height: 600px;
+}
+/***** GRID*****/
+
+.full-width {
+  width: 1400px;
+  margin:0 auto;
+}
+
+.half-width{
+  width: 700px;
+  float: left;
+}
+
+.third-width{
+  width:466px;
+  float: left;
+}
+
+/***** HEADER*****/
+
+header{
+  height: 800px;
+  background: url(../img/hero-image.png);
+  background-size:cover;
+}
+
+header h1 {
+    padding: 100px 0 0 125px;
+    font-family: 'Lora';
+    font-size: 30px;
+    color: #bbc085;
+
+}
+
+nav {
+    float: right;
+    padding: 100px 100px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration:none;
+    font-size:18px;
+    color: #828282;
+    padding-left: 80px;
+}
+
+header h2{
+  font-family:  'Lora', serif;
+  font-size: 72px;
+  width: 1070px;
+  clear: left;
+  color: #9b9b9b;
+  line-height: 80px;
+  padding: 0 0 120px 125px
+}
+
+/*****ABOUT SECTION CSS CODE*****/
+#about .full-width {
+  padding: 80px 0 0 0;
+}
+
+#about h2{
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  padding-left: 70px;
+}
+
+#about p {
+  font-size: 21px;
+  color: #7f7f7f;
+  Line-height: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+/*****WORK SECTION CSS CODE*****/
+#work {
+  background-color: #f9ceb7;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work img{
+  padding-bottom: 50px;
+}
+
+#work h3{
+  font-size: 24px;
+  line-height: 40px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+#work p{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 33px;
+  padding: 0 50px;
+}
+
+/***** CONTACT CECTION CSS CODE*****/
+
+#contact {
+  background-color: #ebebeb;
+}
+
+#contact .full-width {
+  padding: 115px 0;
+}
+
+#contact img#contact-img {
+  margin-left: 25px;
+  border: 10px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+
+#contact #envelope {
+  padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+  font-family:  'Lora', serif;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+#contact #email-header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+  line-height: 44px;
+  margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+  font-weight:bold ;
+  font-size: 29px;
+  line-height:51px;
+  margin: 40px 0 0 0;
+}
+#contact a {
+  text-decoration: none;
+  color: #c49075;
+  font-weight: bold;
+  font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
